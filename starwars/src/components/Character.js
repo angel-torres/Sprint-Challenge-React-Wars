@@ -4,7 +4,7 @@ import './StarWars.css';
 const Character = (props) => {
     return (
         <div className="character-container">
-            <h1>Name: {props.character.name}</h1>
+            <h1>{props.character.name}</h1>
             <div className="attribute"><h2>Birth Year:</h2> {props.character.birth_year}</div>
             <div className="attribute"><h2>Eye Color:</h2> {props.character.eye_color}</div>
             <div className="attribute"><h2>Gender:</h2> {props.character.gender}</div>
