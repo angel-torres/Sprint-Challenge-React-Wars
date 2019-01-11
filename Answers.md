@@ -13,6 +13,7 @@
     A functional component is simply a javascript function that returns some JSX. A Class/Stateful component is a javascript class that extends React.Component. A Class component gives you more tools form React like the ability to use State to manage your data so that it interacts with each of the child components. 
 
 1.  Describe state.
-    State is an object
+    State is an object that holds data. It allows you to create dynamic and interactive components that render the data in State dynamically. 
 
 1.  Describe props.
+    Props stands for properties. Props is how we pass down either data in State or even functions down to other components. Props allows components to communicate with one another. 
